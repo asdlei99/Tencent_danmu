@@ -220,6 +220,7 @@ class Spider(object):
         # https://v.qq.com/x/cover/3fvg46217gw800n/h0030qj4fov.html
         if "https://v.qq.com/x/cover/" not in config.url:
             error("not a video link!")
+            exit()
         datas_path = None
         try:
             trio.run(self.__init_session)
