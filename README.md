@@ -18,12 +18,12 @@
 
 ## 环境安装
 
-我们通过如下命令克隆代码仓库到本地并通过pipenv安装依赖环境
+我们通过如下命令克隆代码仓库到本地并通过pip安装依赖包
 
 ```
 git clone git@github.com:aoii103/Tencent_danmu.git
 cd Tencent_danmu
-pipenv install
+pip install -r requirements.txt
 ```
 
 

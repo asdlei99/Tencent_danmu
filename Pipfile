@@ -6,19 +6,21 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-pyquery = "==1.4.0"
-numpy = "==1.16.2"
-requests = "==2.21.0"
-moment = "==0.8.2"
-asks = "==2.3.2"
-click = "==7.0"
 pandas = "==0.24.2"
+click = "==7.0"
+asks = "==2.3.2"
 trio = "==0.11.0"
-termcolor = "==1.1.0"
-pyexecjs = "==1.5.1"
-wordcloud = "==1.5.0"
 jieba = "==0.39"
+numpy = "==1.16.2"
+wordcloud = "==1.5.0"
+moment = "==0.8.2"
+requests = "==2.21.0"
+termcolor = "==1.1.0"
+pyquery = "==1.4.0"
+anyio = "==1.0.0b2"
+PyExecJS = "==1.5.1"
 Pillow = "==6.0.0"
+XlsxWriter = "==1.1.8"
 
 [requires]
 python_version = "3.7"

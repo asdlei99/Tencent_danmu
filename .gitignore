@@ -5,6 +5,7 @@ __pycache__/
 celery.info
 ghostdriver.log
 
+.vscode/
 *.swp
 *.info
 # C extensions
